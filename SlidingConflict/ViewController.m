@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "FZHHView.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) FZHHView *eneneView;///
 
 @end
 
@@ -16,7 +19,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.eneneView = [[FZHHView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:self.eneneView];
 }
 
 

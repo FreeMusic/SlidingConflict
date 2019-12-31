@@ -16,6 +16,11 @@
 		0051C49E23B9D0AF00088991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0051C49D23B9D0AF00088991 /* main.m */; };
 		0051C4A823B9D0AF00088991 /* SlidingConflictTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0051C4A723B9D0AF00088991 /* SlidingConflictTests.m */; };
 		0051C4B323B9D0AF00088991 /* SlidingConflictUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0051C4B223B9D0AF00088991 /* SlidingConflictUITests.m */; };
+		0051C4C223B9D10C00088991 /* FZHHView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0051C4C123B9D10C00088991 /* FZHHView.m */; };
+		0051C4C623B9D24000088991 /* FZHHCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0051C4C523B9D24000088991 /* FZHHCollectionView.m */; };
+		0051C4C923B9D36300088991 /* FZHHFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0051C4C823B9D36300088991 /* FZHHFirstCell.m */; };
+		0051C4CC23B9D4F600088991 /* FZHHContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0051C4CB23B9D4F600088991 /* FZHHContentCell.m */; };
+		0051C4CF23B9DBC700088991 /* FZHHFirstContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0051C4CE23B9DBC700088991 /* FZHHFirstContentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,16 @@
 		0051C4AE23B9D0AF00088991 /* SlidingConflictUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlidingConflictUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0051C4B223B9D0AF00088991 /* SlidingConflictUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingConflictUITests.m; sourceTree = "<group>"; };
 		0051C4B423B9D0AF00088991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0051C4C023B9D10C00088991 /* FZHHView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZHHView.h; sourceTree = "<group>"; };
+		0051C4C123B9D10C00088991 /* FZHHView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZHHView.m; sourceTree = "<group>"; };
+		0051C4C423B9D24000088991 /* FZHHCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZHHCollectionView.h; sourceTree = "<group>"; };
+		0051C4C523B9D24000088991 /* FZHHCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZHHCollectionView.m; sourceTree = "<group>"; };
+		0051C4C723B9D36300088991 /* FZHHFirstCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZHHFirstCell.h; sourceTree = "<group>"; };
+		0051C4C823B9D36300088991 /* FZHHFirstCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZHHFirstCell.m; sourceTree = "<group>"; };
+		0051C4CA23B9D4F600088991 /* FZHHContentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZHHContentCell.h; sourceTree = "<group>"; };
+		0051C4CB23B9D4F600088991 /* FZHHContentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZHHContentCell.m; sourceTree = "<group>"; };
+		0051C4CD23B9DBC700088991 /* FZHHFirstContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FZHHFirstContentView.h; path = Assets.xcassets/FZHHFirstContentView.h; sourceTree = "<group>"; };
+		0051C4CE23B9DBC700088991 /* FZHHFirstContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FZHHFirstContentView.m; path = Assets.xcassets/FZHHFirstContentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +99,7 @@
 		0051C47F23B9D0AD00088991 = {
 			isa = PBXGroup;
 			children = (
+				0051C4C323B9D1EA00088991 /* FZHHCollectionView */,
 				0051C48A23B9D0AD00088991 /* SlidingConflict */,
 				0051C4A623B9D0AF00088991 /* SlidingConflictTests */,
 				0051C4B123B9D0AF00088991 /* SlidingConflictUITests */,
@@ -110,6 +126,14 @@
 				0051C48F23B9D0AD00088991 /* SceneDelegate.m */,
 				0051C49123B9D0AD00088991 /* ViewController.h */,
 				0051C49223B9D0AD00088991 /* ViewController.m */,
+				0051C4C023B9D10C00088991 /* FZHHView.h */,
+				0051C4C123B9D10C00088991 /* FZHHView.m */,
+				0051C4C723B9D36300088991 /* FZHHFirstCell.h */,
+				0051C4C823B9D36300088991 /* FZHHFirstCell.m */,
+				0051C4CA23B9D4F600088991 /* FZHHContentCell.h */,
+				0051C4CB23B9D4F600088991 /* FZHHContentCell.m */,
+				0051C4CD23B9DBC700088991 /* FZHHFirstContentView.h */,
+				0051C4CE23B9DBC700088991 /* FZHHFirstContentView.m */,
 				0051C49423B9D0AD00088991 /* Main.storyboard */,
 				0051C49723B9D0AF00088991 /* Assets.xcassets */,
 				0051C49923B9D0AF00088991 /* LaunchScreen.storyboard */,
@@ -135,6 +159,15 @@
 				0051C4B423B9D0AF00088991 /* Info.plist */,
 			);
 			path = SlidingConflictUITests;
+			sourceTree = "<group>";
+		};
+		0051C4C323B9D1EA00088991 /* FZHHCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				0051C4C423B9D24000088991 /* FZHHCollectionView.h */,
+				0051C4C523B9D24000088991 /* FZHHCollectionView.m */,
+			);
+			path = FZHHCollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,9 +301,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0051C49323B9D0AD00088991 /* ViewController.m in Sources */,
+				0051C4C223B9D10C00088991 /* FZHHView.m in Sources */,
+				0051C4C623B9D24000088991 /* FZHHCollectionView.m in Sources */,
 				0051C48D23B9D0AD00088991 /* AppDelegate.m in Sources */,
+				0051C4CF23B9DBC700088991 /* FZHHFirstContentView.m in Sources */,
 				0051C49E23B9D0AF00088991 /* main.m in Sources */,
 				0051C49023B9D0AD00088991 /* SceneDelegate.m in Sources */,
+				0051C4C923B9D36300088991 /* FZHHFirstCell.m in Sources */,
+				0051C4CC23B9D4F600088991 /* FZHHContentCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
